@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ir.b3stidea.peshgamanjazb"
+    >
+
+    <!-- To use SMS based services -->
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="Splash_Main_Activity"
+            android:screenOrientation="portrait"
+            tools:ignore="InnerclassSeparator">
+
+         </activity>
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".LoginPage">
+
+        </activity>
+        <activity android:name=".VeryfingPage">
+
+
+        </activity>
+
+        <activity
+            android:name=".MainPage"
+            android:screenOrientation="portrait"
+            tools:ignore="InnerclassSeparator">
+
+         </activity>
+        <activity
+            android:name=".CoursePageOne"
+            android:screenOrientation="portrait"
+            tools:ignore="InnerclassSeparator">
+
+        </activity>
+        <activity
+            android:name=".CoursePageTwo"
+            android:screenOrientation="portrait"
+            tools:ignore="InnerclassSeparator">
+
+        </activity>
+        <activity
+            android:name=".CoursePageThree"
+            android:screenOrientation="portrait"
+            tools:ignore="InnerclassSeparator">
+
+        </activity>
+
+        <activity
+            android:name=".CoursePageFoure"
+            android:screenOrientation="portrait"
+            tools:ignore="InnerclassSeparator">
+
+        </activity>
+
+        <activity
+            android:name=".CoursePagePlay"
+            android:screenOrientation="portrait"
+            tools:ignore="InnerclassSeparator">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".CoursePagePDF"
+            android:screenOrientation="portrait"
+            tools:ignore="InnerclassSeparator">
+
+        </activity>
+
+    </application>
+
+</manifest>

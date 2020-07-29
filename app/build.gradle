@@ -1,0 +1,50 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "ir.b3stidea.peshgamanjazb"
+        minSdkVersion 15
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation "androidx.recyclerview:recyclerview:1.1.0-alpha06"
+    // For control over item selection of both touch and mouse driven selection
+    implementation "androidx.recyclerview:recyclerview-selection:1.0.0-alpha3"
+    implementation 'com.github.GoodieBag:Pinview:v1.4'
+    implementation 'uk.co.chrisjenx:calligraphy:2.3.0'
+    implementation 'com.github.stfalcon:smsverifycatcher:0.3.2'
+    implementation 'com.github.joielechong:countrycodepicker:2.4.1'
+
+
+    //noinspection GradleCompatible
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.android.support:multidex:1.0.3'
+    // به جای این کد :
+    implementation 'com.zarinpal:purchase:0.0.8-beta'
+    //   این کد را قرار دهید:
+    implementation ('com.zarinpal:purchase:0.0.8-beta'){ exclude group: 'com.mcxiaoke.volley', module: 'library' }
+    implementation 'com.mindorks.android:prdownloader:0.4.0'
+    implementation 'com.chibde:audiovisualizer:2.2.0'
+    implementation 'com.github.warkiz.tickseekbar:tickseekbar:0.1.4'
+    implementation 'androidx.annotation:annotation:1.1.0'
+}

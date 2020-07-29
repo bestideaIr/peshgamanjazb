@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">PeshgamanJazb</string>
+    <string name="todoa">TODO</string>
+    <string name="button">شروع</string>
+    <string name="go">ورود</string>
+    <string name="countrycode">لطفا کشور و کد را تایید کنید و سپس شماره تلفن خود را بدون صفر وارد کنید</string>
+    <string name="_1234">1234</string>
+    <string name="todob">TODO</string>
+    <string name="todoc">TODO</string>
+    <string name="android_name">Android Name</string>
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+    <string name="back"><![CDATA[<]]></string>
+    <string name="rewind"><![CDATA[<<]]></string>
+    <string name="forward"><![CDATA[>>]]></string>
+    <string name="pause">||</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="todo5">TODO</string>
+
+
+</resources>
